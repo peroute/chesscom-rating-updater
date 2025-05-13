@@ -1,0 +1,1 @@
+# chesscom-rating-updater

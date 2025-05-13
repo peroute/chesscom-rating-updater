@@ -51,7 +51,10 @@ def update_readme_rating(rating, text_before, text_after, readme_path):
         print("README file updated successfully.")
     
 
-update_readme_rating("hello", "hello", "world", "hello blah blah world")
+rating = get_chess_com_ratings("MagnusCarlsen", "chess_rapid", "last")
+
+update_readme_rating(rating, "Magnus Carlsen's Rapid current rating:", "in Chess.com", 
+                     r"chesscom-rating-updater/README.md")
 
 
 '''

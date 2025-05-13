@@ -36,9 +36,4 @@ pip install requests
 
 ### 1. Create markers in your README file
 
-In your `README.md`, include two markers where the rating should be inserted:
-
-```markdown
-## My Chess.com Rating
-<!-- RATING_START --> loading... <!-- RATING_END -->
-```
+Magnus Carlsen's Rapid current rating: 111 in Chess.com

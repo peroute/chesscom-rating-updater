@@ -1,8 +1,6 @@
 name: Update Chess Rating
 
 on:
-  schedule:
-    - cron: '0 */2 * * *'  
   workflow_dispatch:  
 
 jobs:
@@ -32,3 +30,4 @@ jobs:
           git add README.md
           git commit -m "chore: update chess rating"
           git push
+'''
